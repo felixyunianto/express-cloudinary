@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Felix Yunianto Gunawan",
   "license": "MIT",
+  "scripts" : {
+    "start" : "node index.js",
+    "server" : "nodemon index.js"
+  },
   "dependencies": {
     "cloudinary": "^1.25.1",
     "express": "^4.17.1",
